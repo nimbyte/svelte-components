@@ -1,0 +1,26 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	viewBox="0 0 360 360"
+>
+	<title>Nimbyte logo</title>
+	<g transform="matrix(1 0 0 1 20 60)">
+		<linearGradient
+			id="nimbyte-logo"
+			gradientUnits="userSpaceOnUse"
+			gradientTransform="matrix(1 0 0 1 0 0)"
+			x1="0"
+			y1="120"
+			x2="320"
+			y2="120"
+		>
+			<stop offset="0" stop-color="magenta" />
+			<stop offset="1" stop-color="deepSkyBlue" />
+		</linearGradient>
+		<path
+			vector-effect="non-scaling-stroke"
+			d="M 190 0 C 234.16 0 270 35.84 270 80 C 270 81.9296 269.9317 83.8443 269.7973 85.7397 C 299.2149 97.5648 320 126.369 320 160 C 320 204.16 284.16 240 240 240 L 80 240 C 35.84 240 0 204.16 0 160 C 0 126.3445 20.8171 97.5221 50.2688 85.7141 C 50.0907 83.8336 50 81.9274 50 80 C 50 46.88 76.88 20 110 20 C 117.9627 20 125.5659 21.5541 132.5205 24.3744 C 147.0677 9.3461 167.4485 0 190 0 z"
+      fill="url(#nimbyte-logo)"
+		/>
+	</g>
+</svg>
