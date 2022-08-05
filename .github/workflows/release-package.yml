@@ -13,6 +13,8 @@ jobs:
         with:
           node-version: 17.9
       - run: npm install
+      - name: Install Playwright
+        run: npx playwright install --with-deps
       - run: npm run build
       - run: npm ci
       - run: npm test
