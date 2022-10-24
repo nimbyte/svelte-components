@@ -15,7 +15,7 @@
 	},
 	"devDependencies": {
 		"@iconify/svelte": "^3.0.0",
-		"@playwright/test": "^1.26.1",
+		"@playwright/test": "^1.27.1",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^5.38.1",
