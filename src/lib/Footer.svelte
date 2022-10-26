@@ -1,5 +1,6 @@
 <script lang="ts">
-	import Icon from '@iconify/svelte';
+	import Fa from 'svelte-fa';
+	import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 	export let twitter = '';
 	$: twitterURL = `https://twitter.com/${twitter}`;
 </script>
@@ -26,7 +27,7 @@
 			<div class="grid grid-flow-col gap-4 text-2xl">
 				{#if twitter}
 					<a href={twitterURL} target="_blank" class="hover:opacity-50">
-						<Icon icon="mdi:twitter" />
+						<Fa icon={faTwitter} fw />
 					</a>
 				{/if}
 			</div>

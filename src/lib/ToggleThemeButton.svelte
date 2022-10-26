@@ -1,7 +1,8 @@
 <script lang="ts">
+	import Fa from 'svelte-fa';
+	import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
-	import Icon from '@iconify/svelte';
 
 	export let btnClass = '';
 
@@ -29,11 +30,11 @@
 <button on:click={toggleTheme} aria-label="Toggle theme" class={`btn btn-ghost ${btnClass}`}>
 	{#if currentTheme === 'light'}
 		<span in:fade>
-			<Icon icon="mdi:weather-night" />
+			<Fa icon={faMoon} fw />
 		</span>
 	{:else}
 		<span in:fade>
-			<Icon icon="mdi:weather-sunny" />
+			<Fa icon={faSun} fw />
 		</span>
 	{/if}
 </button>
