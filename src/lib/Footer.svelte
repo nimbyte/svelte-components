@@ -26,7 +26,7 @@
 		<div class="md:place-self-center md:justify-self-end">
 			<div class="grid grid-flow-col gap-4 text-2xl">
 				{#if twitter}
-					<a href={twitterURL} target="_blank" class="hover:opacity-50">
+					<a href={twitterURL} target="_blank" rel="noreferrer" class="hover:opacity-50">
 						<Fa icon={faTwitter} fw />
 					</a>
 				{/if}
